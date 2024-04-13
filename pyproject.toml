@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "img-classification"
+version = "0.1.0"
+description = ""
+authors = ["maryamakbar25 <maryamakbar@g.ucla.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.2.2"
+ipykernel = "^6.29.4"
+torchvision = "^0.17.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
